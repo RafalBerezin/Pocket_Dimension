@@ -1,0 +1,40 @@
+{
+    "pack": {
+        "pack_format": 18,
+        "version": "0.1.0",
+        "description": [
+            {
+                "text": "Multiplayer Friendly ",
+                "color": "#b0b0b0"
+            },
+            {
+                "text": "Pocket Dimension",
+                "color": "#acff94"
+            },
+            {
+                "text": " Datapack",
+                "color": "#b0b0b0"
+            },
+            "\n",
+            {
+                "text": "Made by ",
+                "color": "#888888"
+            },
+            {
+                "text": "Rafał Berezin",
+                "color": "#5991ec"
+            }
+        ],
+        "homepage": "https://modrinth.com/mod/pocket-dimension",
+        "source": "https://github.com/RafalBerezin/Pocket_Dimension",
+        "authors": [
+            {
+                "name": "Rafał Berezin",
+                "contact": {
+                    "discord": "rafalberezin",
+                    "github": "https://github.com/RafalBerezin"
+                }
+            }
+        ]
+    }
+}
