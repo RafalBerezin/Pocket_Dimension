@@ -1,0 +1,61 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{PickupDelay:20,Unbreakable:1b,HideFlags:4,CustomModelData:7640001,PocketDimension:{DimensionalTesseract:1b}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Dimensional Tesseract",
+                                "color": "#acff94",
+                                "bold": true,
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": " "
+                                },
+                                [
+                                    {
+                                        "text": "A powerful ",
+                                        "color": "#b0b0b0"
+                                    },
+                                    {
+                                        "text": "artifact",
+                                        "color": "#5991ec"
+                                    },
+                                    {
+                                        "text": " used to create and enter ",
+                                        "color": "#b0b0b0"
+                                    },
+                                    {
+                                        "text": "Pocket Dimension",
+                                        "color": "#acff94"
+                                    }
+                                ],
+                                {
+                                    "text": " "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
