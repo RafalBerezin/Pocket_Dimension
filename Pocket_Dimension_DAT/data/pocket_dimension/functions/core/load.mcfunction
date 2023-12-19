@@ -1,3 +1,6 @@
+# The PDSneak scoreboard is used most of the time as the predicate doesn't work during flight
+# However it's reset at the end of player logic and cannot be used later (e.g effects). Use the respective predicate for that purpose
+
 scoreboard objectives add PDClick minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add PDSneak minecraft.custom:minecraft.sneak_time
 
