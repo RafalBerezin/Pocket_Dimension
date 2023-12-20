@@ -6,6 +6,12 @@ scoreboard objectives add PDSneak minecraft.custom:minecraft.sneak_time
 
 scoreboard objectives add PDFlag dummy
 
+scoreboard objectives add PDTeleportT dummy
+
+#define storage pocket_dimension:main
+
+
+
 tellraw @a [{"text":"Pocket Dimension","color": "#acff94"},{"text":" has been installed"}]
 
 execute store success score #pd.dimension_loaded PDFlag in pocket_dimension:pocket_dimension run return 1
