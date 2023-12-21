@@ -5,7 +5,7 @@
 # se we need to check 'if loaded ~ ~ ~'
 execute if entity @s[tag=pd.effects.portal.exit.new] if loaded ~ ~ ~ at @s run function pocket_dimension:effects/portal/exit/replace
 
-execute positioned ~ ~2 ~ run function pocket_dimension:effects/portal/animations/tick
+execute positioned ~ ~1.5 ~ run function pocket_dimension:effects/portal/animations/tick
 
 data modify storage pocket_dimension:main root.macro.portal.destination set from entity @s item.tag.portal
 

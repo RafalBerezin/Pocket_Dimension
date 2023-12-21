@@ -1,6 +1,6 @@
 #> Called by pocket_dimension:effects/portal/main
 
-execute positioned ~ ~2 ~ run function pocket_dimension:effects/portal/animations/tick
+execute positioned ~ ~1.5 ~ run function pocket_dimension:effects/portal/animations/tick
 
 # for information as to why it's stored on portal entity see pocket_dimension:portal/create
 data modify storage pocket_dimension:main root.portal.destination set from entity @s item.tag.portal.this
