@@ -8,6 +8,8 @@ scoreboard objectives add PDFlag dummy
 
 scoreboard objectives add PDTeleportT dummy
 
+function pocket_dimension:utils/scoreboard/init_const
+
 #define storage pocket_dimension:main
 
 

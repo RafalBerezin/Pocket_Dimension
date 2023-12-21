@@ -1,8 +1,6 @@
 #> Called by pocket_dimension:effects/portal/entrance/macro_positioning
 
-scoreboard players reset @s PDTeleportT
-
-execute positioned ~ ~1 ~ run function pocket_dimension:effects/portal/animations/teleport
+function pocket_dimension:effects/portal/charge/clear
 function pocket_dimension:portal/exit/create
 
 # The specific combination of 'execute ... positioned [X] [Y] [Z] ... run place jigsaw ...' allows for the structure to be placed in an unloaded chunk
