@@ -6,6 +6,7 @@ scoreboard objectives add PDSneak minecraft.custom:minecraft.sneak_time
 
 scoreboard objectives add PDFlag dummy
 
+scoreboard objectives add PDPortalOpenT dummy
 scoreboard objectives add PDTeleportT dummy
 
 function pocket_dimension:utils/scoreboard/init_const
