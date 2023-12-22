@@ -1,4 +1,4 @@
-advancement revoke @s only pocket_dimension:crafting/dimensional_tesseract
+advancement revoke @s only pocket_dimension:utils/crafting/dimensional_tesseract
 
 playsound minecraft:block.end_portal_frame.fill master @s ~ ~ ~
 
