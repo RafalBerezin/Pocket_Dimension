@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/carrot_on_a_stick"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 7640001 }, "model": "pocket_dimension:item/dimensional_tesseract" }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "pack": {
+        "pack_format": 16,
+        "supported_formats": [16, 22],
+        "description": [
+            {
+                "text": "Resource Pack made for ",
+                "color": "#b0b0b0"
+            },
+            {
+                "text": "Pocket Dimension",
+                "color": "#acff94"
+            },
+            {
+                "text": " Datapack",
+                "color": "#b0b0b0"
+            },
+            "\n",
+            {
+                "text": "Made by ",
+                "color": "#888888"
+            },
+            {
+                "text": "Rafał Berezin",
+                "color": "#5991ec"
+            }
+            ,
+            "\n",
+            {
+                "text": "Textures by ",
+                "color": "#888888"
+            },
+            {
+                "text": "X",
+                "color": "#5991ec"
+            }
+        ],
+        "homepage": "https://modrinth.com/mod/pocket-dimension",
+        "source": "https://github.com/RafalBerezin/Pocket_Dimension",
+        "authors": [
+            {
+                "name": "",
+                "note": "textures",
+                "contact": {
+
+                }
+            },
+            {
+                "name": "Rafał Berezin",
+                "contact": {
+                    "discord": "rafalberezin",
+                    "github": "https://github.com/RafalBerezin"
+                }
+            }
+        ]
+    }
+}
