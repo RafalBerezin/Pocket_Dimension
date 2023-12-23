@@ -1,0 +1,29 @@
+{
+    "criteria": {
+      "build_in_pocket_dimension": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "dimension": "pocket_dimension:pocket_dimension"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "build_in_pocket_dimension"
+      ]
+    ],
+    "rewards": {
+      "function": "pocket_dimension:utils/scoreboard/counters/build_in_pocket_dimension"
+    }
+  }
+  

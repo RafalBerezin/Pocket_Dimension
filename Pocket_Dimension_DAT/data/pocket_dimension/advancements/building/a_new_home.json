@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gold_block"
+		},
+		"title": {
+			"text": "A New Home",
+			"color": "white"
+		},
+		"description": [
+			{
+				"text": "Place ",
+				"color": "white"
+			},
+			{
+				"text": "1k",
+				"color": "#5991ec"
+			},
+			{
+				"text": " blocks in ",
+				"color": "white"
+			},
+			{
+				"text": "Pocket Dimension",
+				"color": "#acff94"
+			}
+		],
+		"frame": "challenge"
+	},
+	"parent": "pocket_dimension:deep_pockets",
+	"criteria": {
+		"build_1k_in_pocket_dimension": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}
