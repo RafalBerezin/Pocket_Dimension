@@ -1,0 +1,61 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stick",
+			"nbt": "{CustomModelData:7640001}"
+		},
+		"title": {
+			"text": "Never Far From Home",
+			"color": "white"
+		},
+		"description": [
+			{
+				"text": "Enter ",
+				"color": "white"
+			},
+			{
+				"text": "Pocket Dimension",
+				"color": "#acff94"
+			},
+			{
+				"text": " from Overworld, The Nether and The End",
+				"color": "white"
+			}
+		]
+	},
+	"parent": "pocket_dimension:deep_pockets",
+	"criteria": {
+		"enter_from_overworld": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"from": "minecraft:overworld",
+				"to": "pocket_dimension:pocket_dimension"
+			}
+		},
+		"enter_from_the_nether": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"from": "minecraft:the_nether",
+				"to": "pocket_dimension:pocket_dimension"
+			}
+		},
+		"enter_from_the_end": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"from": "minecraft:the_end",
+				"to": "pocket_dimension:pocket_dimension"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"enter_from_overworld"
+		],
+		[
+			"enter_from_the_nether"
+		],
+		[
+			"enter_from_the_end"
+		]
+	]
+}

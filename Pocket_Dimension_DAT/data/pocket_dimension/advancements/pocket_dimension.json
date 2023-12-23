@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:7640001}"
+        },
+        "title": {
+            "text": "Pocket Dimension",
+            "color": "white"
+        },
+        "description": {
+            "text": "The ultimate solution to inventory problems",
+            "color": "white"
+        },
+        "background": "minecraft:textures/block/black_concrete.png",
+        "frame": "task"
+    },
+    "criteria": {
+        "get_dimensional_tesseract": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:carrot_on_a_stick"
+                        ],
+                        "nbt": "{PocketDimension:{DimensionalTesseract:1b}}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "get_dimensional_tesseract"
+        ]
+    ]
+}

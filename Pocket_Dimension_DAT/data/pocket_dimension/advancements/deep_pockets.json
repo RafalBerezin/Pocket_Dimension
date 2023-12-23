@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stick",
+			"nbt": "{CustomModelData:7640001}"
+		},
+		"title": {
+			"text": "Deep Pockets",
+			"color": "white"
+		},
+		"description": [
+			{
+				"text": "Enter a ",
+				"color": "white"
+			},
+			{
+				"text": "Pocket Dimension",
+				"color": "#acff94"
+			}
+		]
+	},
+	"parent": "pocket_dimension:pocket_dimension",
+	"criteria": {
+		"enter_pocket_dimension": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "pocket_dimension:pocket_dimension"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"enter_pocket_dimension"
+		]
+	]
+}
