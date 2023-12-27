@@ -31,7 +31,7 @@
                 "color": "#888888"
             },
             {
-                "text": "X",
+                "text": "Geastre",
                 "color": "#5991ec"
             }
         ],
@@ -39,11 +39,9 @@
         "source": "https://github.com/RafalBerezin/Pocket_Dimension",
         "authors": [
             {
-                "name": "",
+                "name": "Geastre",
                 "note": "textures",
-                "contact": {
-
-                }
+                "artstation": "https://geastre.artstation.com/"
             },
             {
                 "name": "Rafał Berezin",
