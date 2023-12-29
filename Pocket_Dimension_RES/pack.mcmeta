@@ -45,11 +45,13 @@
             },
             {
                 "name": "Rafał Berezin",
+                "note": "resourcepack, pack.png",
                 "contact": {
                     "discord": "rafalberezin",
                     "github": "https://github.com/RafalBerezin"
                 }
             }
-        ]
+        ],
+        "note": "portal texture modified by Rafał"
     }
 }
