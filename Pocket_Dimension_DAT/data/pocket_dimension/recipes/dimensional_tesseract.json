@@ -2,13 +2,13 @@
     "type": "minecraft:crafting_shaped",
     "group": "pocket_dimension:dimensional_tesseract",
     "pattern": [
-        "BSB",
+        "ASA",
         "ENC",
-        "BLB"
+        "ALA"
     ],
     "key": {
-        "B": {
-            "item": "minecraft:bone_block"
+        "A": {
+            "item": "minecraft:echo_shard"
         },
         "S": {
             "item": "minecraft:soul_lantern"
