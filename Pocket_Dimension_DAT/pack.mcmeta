@@ -9,7 +9,7 @@
             },
             {
                 "text": "Pocket Dimension",
-                "color": "#acff94"
+                "color": "#5991ec"
             },
             {
                 "text": " Datapack",
@@ -21,15 +21,15 @@
                 "color": "#888888"
             },
             {
-                "text": "Rafał Berezin",
-                "color": "#5991ec"
+                "text": "RafalBerezin",
+                "color": "#acff94"
             }
         ],
-        "homepage": "https://modrinth.com/mod/pocket-dimension",
+        "homepage": "https://modrinth.com/datapack/pocket-dimension",
         "source": "https://github.com/RafalBerezin/Pocket_Dimension",
         "authors": [
             {
-                "name": "Rafał Berezin",
+                "name": "RafalBerezin",
                 "contact": {
                     "discord": "rafalberezin",
                     "github": "https://github.com/RafalBerezin"
