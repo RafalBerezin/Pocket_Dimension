@@ -19,8 +19,7 @@
                             "function": "minecraft:set_name",
                             "name": {
                                 "text": "Dimensional Tesseract",
-                                "color": "#acff94",
-                                "bold": true,
+                                "color": "#5991ec",
                                 "italic": false
                             }
                         },
@@ -33,11 +32,12 @@
                                 [
                                     {
                                         "text": "A powerful ",
-                                        "color": "#b0b0b0"
+                                        "color": "#b0b0b0",
+                                        "italic": false
                                     },
                                     {
                                         "text": "artifact",
-                                        "color": "#5991ec"
+                                        "color": "#acff94"
                                     },
                                     {
                                         "text": " used to create and enter ",
@@ -45,7 +45,7 @@
                                     },
                                     {
                                         "text": "Pocket Dimension",
-                                        "color": "#acff94"
+                                        "color": "#5991ec"
                                     }
                                 ],
                                 {
