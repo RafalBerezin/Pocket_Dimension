@@ -43,6 +43,8 @@ After installation, the world needs to be restarted.
 
 You can safely disable the data pack by using `/function pocket_dimension:commands/disable`. Make sure to keep the data pack itself enabled!
 
+Later you can enable the data pack using `/function pocket_dimension:commands/enable`.
+
 ### As to full uninstallation
 
 Simply removing the data pack file or using `/datapack disable...` will result in the world not being able to be loaded. Minecraft will most likely say the world has been corrupted. This is because `level.dat` references a custom dimension that cannot be generated without this data pack, thus preventing the loading of the world. This can be easily resolved by following the uninstallation steps listed below:
