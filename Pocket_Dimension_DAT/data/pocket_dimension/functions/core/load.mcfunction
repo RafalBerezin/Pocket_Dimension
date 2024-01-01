@@ -1,3 +1,7 @@
+#> Called by #minecraft:load
+
+execute if score #pd.disabled PDFlag matches 1 run return 1
+
 # The PDSneak scoreboard is used most of the time as the predicate doesn't work during flight
 # However it's reset at the end of player logic and cannot be used later (e.g effects). Use the respective predicate for that purpose
 
@@ -20,5 +24,8 @@ function pocket_dimension:utils/scoreboard/init_const
 
 tellraw @a [{"text":"Pocket Dimension","color": "#acff94"},{"text":" has been installed"}]
 
-execute store success score #pd.dimension_loaded PDFlag in pocket_dimension:pocket_dimension run return 1
+execute store success score #pd.dimension_loaded PDFlag in pocket_dimension:pocket_dimension if dimension pocket_dimension:pocket_dimension
 execute if score #pd.dimension_loaded PDFlag matches 0 run tellraw @a [{"text":"WARNING ","color": "red"},{"text":"Custom Dimension couldn't be loaded, Please try restarting the server.", "color": "#b0b0b0"}]
+
+
+execute if score #pd.dimension_loaded PDFlag matches 1 run function pocket_dimension:core/main
