@@ -2,3 +2,5 @@
 
 function pocket_dimension:effects/apply
 tag @s add pd.effects.portal
+
+function pocket_dimension:anim/framed/portal/apply

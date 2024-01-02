@@ -12,6 +12,10 @@ scoreboard objectives add PDFlag dummy
 
 scoreboard objectives add PDBuildC dummy
 
+scoreboard objectives add PDAnimT dummy
+scoreboard objectives add PDAnimFrame dummy
+scoreboard objectives add PDAnimLength dummy
+
 scoreboard objectives add PDDimTesseractCD dummy
 scoreboard objectives add PDPortalOpenT dummy
 scoreboard objectives add PDTeleportT dummy
