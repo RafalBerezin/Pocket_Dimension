@@ -1,6 +1,7 @@
 {
     "pack": {
         "pack_format": 18,
+        "supported_formats": [18, 26],
         "version": "0.6.1",
         "description": [
             {
