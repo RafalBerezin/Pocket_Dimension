@@ -37,6 +37,7 @@
         ],
         "homepage": "https://modrinth.com/datapack/pocket-dimension",
         "source": "https://github.com/RafalBerezin/Pocket_Dimension",
+        "license": "MIT",
         "authors": [
             {
                 "name": "Geastre",
