@@ -2,6 +2,7 @@
     "pack": {
         "pack_format": 16,
         "supported_formats": [16, 22],
+        "version": "1.0.0",
         "description": [
             {
                 "text": "Resource Pack for ",
