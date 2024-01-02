@@ -6,6 +6,8 @@
 ![Modrinth Downloads](https://img.shields.io/modrinth/dt/7xxfOwkq?style=for-the-badge&logo=modrinth)
 ![Modrinth Version](https://img.shields.io/modrinth/v/7xxfOwkq?style=for-the-badge&logo=modrinth)
 ![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/7xxfOwkq?style=for-the-badge&logo=modrinth)
+
+[![Download](https://img.shields.io/badge/Download-gray?style=for-the-badge&logo=modrinth)](https://modrinth.com/datapack/pocket-dimension/versions)
 [![Ko-Fi](https://img.shields.io/badge/Support%20me%20on%20Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/rafalberezin)
 
 ## Important
