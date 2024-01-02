@@ -31,6 +31,11 @@ After teleporting successfully, there's another **1s** delay before you can star
 
 While inside your Pocket Dimension you can freely build anything you want, and it'll be there next time you visit. However, using a **Bed** or a **Respawn Anchor** inside will cause it to **explode**.
 
+## Additional Information
+
+- Shaders may affect the sky in Pocket Dimension in unexpected ways.
+- The entrance portal keeps the chunk it's located in loaded.
+
 ## Installation
 
 Place the downloaded data pack (.zip) file into `.minecraft/saves/<world>/datapacks`.
