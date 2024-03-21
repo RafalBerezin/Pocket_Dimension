@@ -21,6 +21,7 @@ scoreboard objectives add PDPortalOpenT dummy
 scoreboard objectives add PDTeleportT dummy
 
 function pocket_dimension:utils/scoreboard/init_const
+function pocket_dimension:config/global/init
 
 #define storage pocket_dimension:main
 

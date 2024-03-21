@@ -15,6 +15,11 @@ execute store result storage pocket_dimension:main root.portal.destination.z int
 # the position is stored in pocket_dimension:portal/entrance/setup
 # (could be more than just players, but the important thing is that the entity used for portals doesn't)
 data modify storage pocket_dimension:main root.portal.this.dim set from entity @s Dimension
+
+data modify storage pocket_dimension:main root.portal.owner set from entity @s UUID
+
+scoreboard players set #pd.pocket_dimension.is_private PDFlag 1
+execute if score #pd.config.global.portal.force_private PDFlag matches 0 unless entity @s[tag=pd.config.personal.portal.is_private] run scoreboard players set #pd.pocket_dimension.is_private PDFlag 0
 #endregion
 
 execute summon minecraft:item_display run function pocket_dimension:portal/entrance/setup
