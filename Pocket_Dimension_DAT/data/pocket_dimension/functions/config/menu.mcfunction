@@ -3,7 +3,7 @@
 function pocket_dimension:utils/menu/universal_blocks/config/title
 function pocket_dimension:utils/menu/universal_blocks/config/empty_line
 
-# My tests indicate that all text components in a command inherit the font of the first component, unless changed manually for the specific component.
+# My tests indicate that all text components in a command inherit the formatting of the first component, unless changed manually for the specific component.
 # This means that if the first component used the icon font, then all following non-icon components would require specifying the font as "minecraft:default" (or just "default").
 # Adding an empty component at the beginning solves this issue.
 

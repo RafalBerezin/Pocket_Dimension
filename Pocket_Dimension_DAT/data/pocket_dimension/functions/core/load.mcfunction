@@ -28,10 +28,10 @@ function pocket_dimension:config/global/init
 
 
 
-tellraw @a [{"text":"Pocket Dimension","color": "#acff94"},{"text":" has been installed"}]
+tellraw @a [{"text": ""}, {"font": "pocket_dimension:icons", "text": "\n\u3201"}, {"text":" Pocket Dimension", "color": "#acff94"}, {"text": " has been installed."}, {"font": "pocket_dimension:icons", "text": "\n\u3203"}]
 
 execute store success score #pd.dimension_loaded PDFlag in pocket_dimension:pocket_dimension if dimension pocket_dimension:pocket_dimension
-execute if score #pd.dimension_loaded PDFlag matches 0 run tellraw @a [{"text":"WARNING ","color": "red"},{"text":"Custom Dimension couldn't be loaded, Please try restarting the server.", "color": "#b0b0b0"}]
+execute if score #pd.dimension_loaded PDFlag matches 0 run tellraw @a [{"text": ""}, {"font": "pocket_dimension:icons", "text": "\u3101"}, {"text": " Custom Dimension could not be loaded."}, {"font": "pocket_dimension:icons", "text": "\n\u3102"}, {"text": " Please try restarting the server."}, {"font": "pocket_dimension:icons", "text": "\n\u3103"}]
 
 
 execute if score #pd.dimension_loaded PDFlag matches 1 run function pocket_dimension:core/main

@@ -16,9 +16,10 @@
             "type": "bitmap",
             "file": "pocket_dimension:icons/config_x2.png",
             "ascent": 11,
-            "height": 32,
+            "height": 16,
             "chars": [
-                "\u2001"
+                "\u2001",
+                "\u2002"
             ]
         },
         {
