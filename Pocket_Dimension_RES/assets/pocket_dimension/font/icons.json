@@ -1,0 +1,36 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "pocket_dimension:icons/config.png",
+            "ascent": 11,
+            "height": 16,
+            "chars": [
+                "\u0001\u0101",
+                "\u0002\u0102",
+                "\u0003\u0103",
+                "\u1001\u0000"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pocket_dimension:icons/config_x2.png",
+            "ascent": 11,
+            "height": 32,
+            "chars": [
+                "\u2001"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pocket_dimension:icons/chat.png",
+            "ascent": 11,
+            "height": 16,
+            "chars": [
+                "\u3001\u3101\u3201\u3301",
+                "\u3002\u3102\u3202\u3302",
+                "\u3003\u3103\u3203\u3303"
+            ]
+        }
+    ]
+}

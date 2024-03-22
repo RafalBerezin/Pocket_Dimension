@@ -2,6 +2,8 @@
 
 scoreboard objectives remove PDClick
 scoreboard objectives remove PDSneak
+
+scoreboard objectives remove PDConfig
 scoreboard objectives remove PDFlag
 
 scoreboard objectives remove PDBuildC

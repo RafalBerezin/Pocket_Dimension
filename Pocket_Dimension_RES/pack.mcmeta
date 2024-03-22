@@ -47,13 +47,16 @@
             },
             {
                 "name": "RafalBerezin",
-                "note": "resourcepack, pack.png",
+                "note": "resourcepack, pack.png, custom font icons",
                 "contact": {
                     "discord": "rafalberezin",
                     "github": "https://github.com/RafalBerezin"
                 }
             }
         ],
-        "note": "portal texture modified by Rafał"
+        "notes": [
+            "portal texture modified by RafalBerezin",
+            "pack.png made using the portal texture by Geastre"
+        ]
     }
 }

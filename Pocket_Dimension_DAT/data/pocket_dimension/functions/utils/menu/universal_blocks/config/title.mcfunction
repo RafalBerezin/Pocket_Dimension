@@ -1,0 +1,1 @@
+tellraw @s [{"text": ""}, {"font": "pocket_dimension:icons", "text": "\n\u3301"}, {"text": "Pocket Dimension Config"}]
