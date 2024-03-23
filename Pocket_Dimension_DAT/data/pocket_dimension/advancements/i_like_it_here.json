@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:map"
+			"item": "minecraft:clock"
 		},
 		"title": {
 			"text": "I Like It Here",
@@ -9,7 +9,15 @@
 		},
 		"description": [
 			{	
-				"text": "Spend 1 hour inside ",
+				"text": "Spend ",
+				"color": "white"
+			},
+			{	
+				"text": "1 hour",
+				"color": "#ffd12f"
+			},
+			{	
+				"text": " inside ",
 				"color": "white"
 			},
 			{
