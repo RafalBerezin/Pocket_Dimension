@@ -18,8 +18,28 @@
 				"color": "#5991ec"
 			},
 			{
-				"text": " from Overworld, The Nether and The End",
+				"text": " from ",
 				"color": "white"
+			},
+			{
+				"text": "Overworld",
+				"color": "#acff94"
+			},
+			{
+				"text": ", ",
+				"color": "white"
+			},
+			{
+				"text": "The Nether",
+				"color": "#c44949"
+			},
+			{
+				"text": " and ",
+				"color": "white"
+			},
+			{
+				"text": "The End",
+				"color": "#ffd12f"
 			}
 		]
 	},
