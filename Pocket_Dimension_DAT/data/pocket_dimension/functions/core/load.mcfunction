@@ -23,6 +23,7 @@ scoreboard objectives add PDTeleportT dummy
 
 function pocket_dimension:utils/scoreboard/init_const
 function pocket_dimension:config/global/init
+function pocket_dimension:advancements/scoreboards/install
 
 #define storage pocket_dimension:main
 

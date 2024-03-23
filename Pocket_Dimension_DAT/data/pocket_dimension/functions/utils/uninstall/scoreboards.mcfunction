@@ -11,3 +11,5 @@ scoreboard objectives remove PDBuildC
 scoreboard objectives remove PDDimTesseractCD
 scoreboard objectives remove PDPortalOpenT
 scoreboard objectives remove PDTeleportT
+
+function pocket_dimension:advancements/scoreboards/uninstall

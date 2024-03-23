@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:map"
+		},
+		"title": {
+			"text": "In Case I Built a Maze",
+			"color": "white"
+		},
+		"description": [
+			{	
+				"text": "Create a map of ",
+				"color": "white"
+			},
+			{
+				"text": "Pocket Dimension",
+				"color": "#5991ec"
+			}
+		],
+		"frame": "goal"
+	},
+	"parent": "pocket_dimension:building/a_new_home",
+	"criteria": {
+		"granted_manually": {
+			"trigger": "impossible"
+		}
+	}
+}
