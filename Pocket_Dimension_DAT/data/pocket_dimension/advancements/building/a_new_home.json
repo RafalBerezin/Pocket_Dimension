@@ -14,7 +14,7 @@
 			},
 			{
 				"text": "1k",
-				"color": "#5991ec"
+				"color": "#ffd12f"
 			},
 			{
 				"text": " blocks in ",
@@ -22,7 +22,7 @@
 			},
 			{
 				"text": "Pocket Dimension",
-				"color": "#acff94"
+				"color": "#5991ec"
 			}
 		],
 		"frame": "challenge"
