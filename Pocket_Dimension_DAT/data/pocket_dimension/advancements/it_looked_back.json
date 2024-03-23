@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_eye"
+		},
+		"title": {
+			"text": "It looked back",
+			"color": "white"
+		},
+		"description": [
+			{	
+				"text": "Peer into the void of ",
+				"color": "white"
+			},
+			{
+				"text": "Pocket Dimension",
+				"color": "#5991ec"
+			},
+			{
+				"text": " using a ",
+				"color": "white"
+			},
+			{
+				"text": "spyglass",
+				"color": "#ffd12f"
+			}
+		],
+		"frame": "challenge"
+	},
+	"parent": "pocket_dimension:deep_pockets",
+	"criteria": {
+		"granted_manually": {
+			"trigger": "impossible"
+		}
+	}
+}
