@@ -1,0 +1,53 @@
+{
+    "pd.icon.button.private":       "\u0001",
+    "pd.icon.button.player_choice": "\u0002",
+    "pd.icon.button.public":        "\u0003",
+    
+    "pd.icon.button.private.disabled":       "\u0101",
+    "pd.icon.button.player_choice.disabled": "\u0102",
+    "pd.icon.button.public.disabled":        "\u0103",
+
+    
+    
+    "pd.icon.badge.op": "\u1001",
+
+
+
+    "pd.icon.button.edit": "\u2001",
+    "pd.icon.button.link": "\u2002",
+
+    
+    
+    "pd.icon.chat_section.info.start":    "\u3001",
+    "pd.icon.chat_section.info.continue": "\u3002",
+    "pd.icon.chat_section.info.end":      "\u3003",
+    
+    "pd.icon.chat_section.warning.start":    "\u3101",
+    "pd.icon.chat_section.warning.continue": "\u3102",
+    "pd.icon.chat_section.warning.end":      "\u3103",
+    
+    "pd.icon.chat_section.success.start":    "\u3201",
+    "pd.icon.chat_section.success.continue": "\u3202",
+    "pd.icon.chat_section.success.end":      "\u3203",
+    
+    "pd.icon.chat_section.config.start":    "\u3301",
+    "pd.icon.chat_section.config.continue": "\u3302",
+    "pd.icon.chat_section.config.end":      "\u3303",
+
+
+
+    "pd.icon.button.remove.1":          "\u4001",
+    "pd.icon.button.remove.1.disabled": "\u4101",
+    "pd.icon.button.remove.5":          "\u4002",
+    "pd.icon.button.remove.5.disabled": "\u4102",
+
+    "pd.icon.button.add.1":          "\u4011",
+    "pd.icon.button.add.1.disabled": "\u4111",
+    "pd.icon.button.add.5":          "\u4012",
+    "pd.icon.button.add.5.disabled": "\u4112",
+
+    "pd.icon.button.infinity":          "\u4021",
+    "pd.icon.button.infinity.disabled": "\u4121",
+    "pd.icon.button.reset":             "\u4022",
+    "pd.icon.button.reset.disabled":    "\u4122"
+}

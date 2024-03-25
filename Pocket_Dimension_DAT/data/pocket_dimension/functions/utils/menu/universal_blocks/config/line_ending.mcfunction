@@ -1,1 +1,1 @@
-tellraw @s [{"font": "pocket_dimension:icons", "text": "\u3303"}]
+tellraw @s [{"font": "pocket_dimension:icons", "translate": "pd.icon.chat_section.config.end"}]
