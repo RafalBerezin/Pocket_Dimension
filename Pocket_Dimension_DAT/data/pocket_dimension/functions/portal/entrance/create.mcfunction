@@ -19,6 +19,7 @@ data modify storage pocket_dimension:main root.portal.this.dim set from entity @
 data modify storage pocket_dimension:main root.portal.owner set from entity @s UUID
 
 execute store result score #pd.pocket_dimension.is_private PDFlag run function pocket_dimension:portal/entrance/privacy_check
+function pocket_dimension:portal/entrance/calculate_uses
 #endregion
 
 execute summon minecraft:item_display run function pocket_dimension:portal/entrance/setup

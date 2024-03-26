@@ -8,4 +8,6 @@ data modify entity @s item.tag.portal.this.z set from entity @s Pos[2]
 
 execute if score #pd.pocket_dimension.is_private PDFlag matches 1 run tag @s add pd.portal.private
 
+execute if score #pd.temp.portal.max_uses PDFlag matches 1.. run scoreboard players operation @s pd.config.portal.max_uses = #pd.temp.portal.max_uses PDFlag
+
 function pocket_dimension:effects/portal/entrance/apply
