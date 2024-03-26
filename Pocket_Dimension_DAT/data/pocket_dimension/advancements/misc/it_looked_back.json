@@ -4,7 +4,7 @@
 			"item": "minecraft:ender_eye"
 		},
 		"title": {
-			"text": "It looked back",
+			"text": "It Looked Back",
 			"color": "white"
 		},
 		"description": [
@@ -25,7 +25,7 @@
 				"color": "#ffd12f"
 			}
 		],
-		"frame": "challenge"
+		"frame": "goal"
 	},
 	"parent": "pocket_dimension:deep_pockets",
 	"criteria": {
