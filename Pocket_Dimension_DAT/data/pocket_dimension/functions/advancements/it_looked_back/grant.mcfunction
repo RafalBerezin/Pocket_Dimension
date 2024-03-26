@@ -1,6 +1,6 @@
 #> Called by pocket_dimension:advancements/it_looked_back/block_check
 
-advancement grant @s only pocket_dimension:it_looked_back
+advancement grant @s only pocket_dimension:misc/it_looked_back
 
 execute at @s run playsound minecraft:entity.elder_guardian.ambient master @s ~ ~ ~ 1 1
 
