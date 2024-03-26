@@ -9,8 +9,12 @@
         },
         "description": [
             {
-                "text": "Complete all the sub-goals",
+                "text": "Complete all the ",
                 "color": "white"
+            },
+            {
+                "text": "sub-goals",
+                "color": "#ffd12f"
             }
         ],
         "frame": "challenge"
