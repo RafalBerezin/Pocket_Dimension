@@ -19,7 +19,7 @@
 			}
 		]
 	},
-	"parent": "pocket_dimension:pocket_dimension",
+	"parent": "pocket_dimension:root",
 	"criteria": {
 		"enter_pocket_dimension": {
 			"trigger": "minecraft:changed_dimension",

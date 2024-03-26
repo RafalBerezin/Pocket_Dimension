@@ -1,0 +1,3 @@
+#> Called by advancement pocket_dimension:make_yourself_at_home/in_case_i_built_a_maze
+
+advancement grant @s only pocket_dimension:make_yourself_at_home/root in_case_i_built_a_maze

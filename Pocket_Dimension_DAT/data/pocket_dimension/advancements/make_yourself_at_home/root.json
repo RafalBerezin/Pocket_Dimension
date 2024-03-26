@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:red_bed"
+        },
+        "title": {
+            "text": "Make Yourself At Home",
+            "color": "white"
+        },
+        "description": [
+            {
+                "text": "Complete all the sub-goals",
+                "color": "white"
+            }
+        ],
+        "frame": "challenge"
+    },
+    "parent": "pocket_dimension:deep_pockets",
+    "criteria": {
+        "break_the_silence": {
+            "trigger": "minecraft:impossible"
+        },
+        "i_like_it_here": {
+            "trigger": "minecraft:impossible"
+        },
+        "in_case_i_built_a_maze": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        ["break_the_silence"],
+        ["i_like_it_here"],
+        ["in_case_i_built_a_maze"]
+    ],
+    "rewards": {
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:music_disc_otherside"
+        },
+        "title": {
+            "text": "Break the Silence",
+            "color": "white"
+        },
+        "description": [
+            {
+                "text": "Play a ",
+                "color": "white"
+            },
+            {
+                "text": "jukebox",
+                "color": "#ffd12f"
+            },
+            {
+                "text": " inside a ",
+                "color": "white"
+            },
+            {
+                "text": "Pocket Dimension",
+                "color": "#5991ec"
+            }
+        ],
+        "frame": "goal"
+    },
+    "parent": "pocket_dimension:make_yourself_at_home/root",
+    "criteria": {
+        "play_jukebox_in_pocket_dimension": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "dimension": "pocket_dimension:pocket_dimension",
+                            "block": {
+                                "blocks": [
+                                    "minecraft:jukebox"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:music_discs"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "play_jukebox_in_pocket_dimension"
+        ]
+    ],
+    "rewards": {
+        "function": "pocket_dimension:advancements/make_yourself_at_home/break_the_silence"
+    }
+}

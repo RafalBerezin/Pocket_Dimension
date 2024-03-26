@@ -27,10 +27,13 @@
 		],
 		"frame": "goal"
 	},
-	"parent": "pocket_dimension:deep_pockets",
+	"parent": "pocket_dimension:make_yourself_at_home/root",
 	"criteria": {
 		"granted_manually": {
 			"trigger": "impossible"
 		}
+	},
+	"rewards": {
+		"function": "pocket_dimension:advancements/make_yourself_at_home/i_like_it_here"
 	}
 }

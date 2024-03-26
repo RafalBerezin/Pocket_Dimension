@@ -27,10 +27,13 @@
 		],
 		"frame": "goal"
 	},
-	"parent": "pocket_dimension:building/a_new_home",
+	"parent": "pocket_dimension:make_yourself_at_home/root",
 	"criteria": {
 		"granted_manually": {
 			"trigger": "impossible"
 		}
+	},
+	"rewards": {
+		"function": "pocket_dimension:advancements/make_yourself_at_home/in_case_i_built_a_maze"
 	}
 }
