@@ -1,0 +1,4 @@
+#> Called by pocket_dimension:config/personal/portal_stabilization/sections/allow_change
+
+execute if score @s pd.config.portal.max_uses matches ..10 run tellraw @s [{"text": ""}, {"font": "pocket_dimension:icons", "translate": "pd.icon.chat_section.config.continue"}, {"text": " Current value: [ "}, {"score": {"name": "@s", "objective": "pd.config.portal.max_uses"}, "color": "#ffd12f"}, {"text": " ]"}]
+execute if score @s pd.config.portal.max_uses matches 11.. run tellraw @s [{"text": ""}, {"font": "pocket_dimension:icons", "translate": "pd.icon.chat_section.config.continue"}, {"text": " Current value: [ "}, {"text": "∞", "color": "#ffd12f"}, {"text": " ]"}]

@@ -9,6 +9,8 @@ scoreboard objectives add PDClick minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add PDSneak minecraft.custom:minecraft.sneak_time
 
 scoreboard objectives add PDConfig trigger
+scoreboard objectives add pd.config.portal.max_uses dummy
+
 scoreboard objectives add PDFlag dummy
 
 scoreboard objectives add PDBuildC dummy

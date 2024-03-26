@@ -1,0 +1,4 @@
+#> Called by pocket_dimension:config/personal/portal_stabilization/lines/allow_change/reset_and_infinity
+
+execute if score #pd.temp.reset PDFlag matches 0 run tellraw @s [{"text": ""}, {"font": "pocket_dimension:icons", "translate": "pd.icon.chat_section.config.continue"}, {"text": " "}, {"font": "pocket_dimension:icons", "translate": "pd.icon.button.infinity.disabled"}, {"font": "pocket_dimension:icons", "translate": "pd.icon.button.reset.disabled"}]
+execute if score #pd.temp.reset PDFlag matches 1 run tellraw @s [{"text": ""}, {"font": "pocket_dimension:icons", "translate": "pd.icon.chat_section.config.continue"}, {"text": " "}, {"font": "pocket_dimension:icons", "translate": "pd.icon.button.infinity.disabled"}, {"font": "pocket_dimension:icons", "translate": "pd.icon.button.reset", "hoverEvent": {"action": "show_text", "value": [{"text": "Set to default value"}]}, "clickEvent": {"action": "run_command", "value": "/trigger PDConfig set 101010001"}}]

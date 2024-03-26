@@ -20,3 +20,6 @@ execute if score @s PDConfig matches 1 run function pocket_dimension:config/menu
 execute if score @s PDConfig matches 100000000 run function pocket_dimension:config/personal/menu
 
 execute if score @s PDConfig matches 101000000 run function pocket_dimension:config/handler/personal/actions/change_pocket_dimension_privacy
+
+execute if score @s PDConfig matches 101000100 run function pocket_dimension:config/personal/portal_stabilization/menu
+execute if score @s PDConfig matches 101010000..101010201 run function pocket_dimension:config/handler/personal/actions/change_portal_stabilization

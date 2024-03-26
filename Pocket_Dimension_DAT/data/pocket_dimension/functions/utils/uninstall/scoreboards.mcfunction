@@ -4,6 +4,8 @@ scoreboard objectives remove PDClick
 scoreboard objectives remove PDSneak
 
 scoreboard objectives remove PDConfig
+scoreboard objectives remove pd.config.portal.max_uses
+
 scoreboard objectives remove PDFlag
 
 scoreboard objectives remove PDBuildC
