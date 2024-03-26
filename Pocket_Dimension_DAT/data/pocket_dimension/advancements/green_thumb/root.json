@@ -1,0 +1,61 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:peony"
+        },
+        "title": {
+            "text": "Green Thumb",
+            "color": "white"
+        },
+        "description": [
+            [
+                {
+                    "text": "Complete all the ",
+                    "color": "white"
+                },
+                {
+                    "text": "sub-goals",
+                    "color": "#ffd12f"
+                }
+            ],
+            [
+                {
+                    "text": ".\nRemember that ",
+                    "color": "white"
+                },
+                {
+                    "text": "plants",
+                    "color": "#acff94"
+                },
+                {
+                    "text": " need ",
+                    "color": "white"
+                },
+                {
+                    "text": "light",
+                    "color": "#ffd12f"
+                },
+                {
+                    "text": " to grow",
+                    "color": "white"
+                }
+            ]
+        ],
+        "frame": "challenge"
+    },
+    "parent": "pocket_dimension:deep_pockets",
+    "criteria": {
+        "harvesting_beyond": {
+            "trigger": "minecraft:impossible"
+        },
+        "grassy_pocket_lining": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        ["harvesting_beyond"],
+        ["grassy_pocket_lining"]
+    ],
+    "rewards": {
+    }
+}

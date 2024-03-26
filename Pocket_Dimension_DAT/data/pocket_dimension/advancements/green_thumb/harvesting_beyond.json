@@ -1,0 +1,55 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot"
+        },
+        "title": {
+            "text": "Harvesting Beyond",
+            "color": "white"
+        },
+        "description": [
+            {
+                "text": "Plant a ",
+                "color": "white"
+            },
+            {
+                "text": "crop",
+                "color": "#ffd12f"
+            },
+            {
+                "text": " inside a ",
+                "color": "white"
+            },
+            {
+				"text": "Pocket Dimension",
+				"color": "#5991ec"
+			}
+        ],
+        "frame": "goal"
+    },
+    "parent": "pocket_dimension:green_thumb/root",
+    "criteria": {
+        "plant_a_crop_inside_pocket_dimension": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "dimension": "pocket_dimension:pocket_dimension",
+                            "block": {
+                                "tag": "minecraft:crops"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["plant_a_crop_inside_pocket_dimension"]
+    ],
+    "rewards": {
+        "function": "pocket_dimension:advancements/green_thumb/harvesting_beyond"
+    }
+}
