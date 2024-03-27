@@ -9,4 +9,4 @@ particle minecraft:large_smoke ~ ~ ~ 0 0 0 0.7 200 normal @a
 particle minecraft:cloud ~ ~ ~ 0 0 0 0.7 200 normal @a
 particle minecraft:end_rod ~ ~ ~ 0 0 0 0.7 100 normal @a
 
-kill @s
+execute positioned ~ ~-1 ~ run function pocket_dimension:effects/portal/entrance/clear
