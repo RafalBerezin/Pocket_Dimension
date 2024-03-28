@@ -57,5 +57,9 @@
         ["grassy_pocket_lining"]
     ],
     "rewards": {
+        "loot": [
+            "pocket_dimension:advancement_rewards/green_thumb"
+        ],
+        "experience": 200
     }
 }

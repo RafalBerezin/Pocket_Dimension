@@ -34,5 +34,8 @@
         [
             "get_dimensional_tesseract"
         ]
-    ]
+    ],
+    "rewards": {
+        "experience": 100
+    }
 }

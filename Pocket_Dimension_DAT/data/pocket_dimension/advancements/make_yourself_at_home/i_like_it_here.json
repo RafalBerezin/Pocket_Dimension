@@ -34,6 +34,7 @@
 		}
 	},
 	"rewards": {
-		"function": "pocket_dimension:advancements/make_yourself_at_home/i_like_it_here"
+		"function": "pocket_dimension:advancements/make_yourself_at_home/i_like_it_here",
+		"experience": 100
 	}
 }

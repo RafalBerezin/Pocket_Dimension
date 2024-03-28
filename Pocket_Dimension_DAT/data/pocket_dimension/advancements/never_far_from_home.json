@@ -77,5 +77,8 @@
 		[
 			"enter_from_the_end"
 		]
-	]
+	],
+	"rewards": {
+		"experience": 300
+	}
 }

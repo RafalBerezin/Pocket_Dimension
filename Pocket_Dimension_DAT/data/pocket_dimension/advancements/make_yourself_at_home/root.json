@@ -37,5 +37,9 @@
         ["in_case_i_built_a_maze"]
     ],
     "rewards": {
+        "loot": [
+            "pocket_dimension:advancement_rewards/make_yourself_at_home"
+        ],
+		"experience": 300
     }
 }

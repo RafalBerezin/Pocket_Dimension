@@ -60,6 +60,7 @@
         ]
     ],
     "rewards": {
-        "function": "pocket_dimension:advancements/make_yourself_at_home/break_the_silence"
+        "function": "pocket_dimension:advancements/make_yourself_at_home/break_the_silence",
+		"experience": 100
     }
 }

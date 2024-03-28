@@ -50,6 +50,7 @@
         ["plant_a_crop_inside_pocket_dimension"]
     ],
     "rewards": {
-        "function": "pocket_dimension:advancements/green_thumb/harvesting_beyond"
+        "function": "pocket_dimension:advancements/green_thumb/harvesting_beyond",
+        "experience": 100
     }
 }

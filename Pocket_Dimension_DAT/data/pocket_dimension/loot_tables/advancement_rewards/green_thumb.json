@@ -1,0 +1,62 @@
+{
+    "pools": [
+        {
+            "rolls": 5,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:beetroot_seeds"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potato"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wheat_seeds"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:melon_seeds"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pumpkin_seeds"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:torchflower_seeds"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pitcher_pod"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glow_berries"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sweet_berries"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cocoa_beans"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 3,
+                        "max": 8
+                    }
+                }
+            ]
+        }
+    ]
+}

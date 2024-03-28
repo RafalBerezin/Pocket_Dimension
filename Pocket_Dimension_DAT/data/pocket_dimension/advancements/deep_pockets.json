@@ -32,5 +32,8 @@
 		[
 			"enter_pocket_dimension"
 		]
-	]
+	],
+	"rewards": {
+		"experience": 100
+	}
 }

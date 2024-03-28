@@ -32,5 +32,11 @@
 		"granted_manually": {
 			"trigger": "impossible"
 		}
+	},
+	"rewards": {
+		"loot": [
+			"pocket_dimension:advancement_rewards/it_looked_back"
+		],
+		"experience": 100
 	}
 }

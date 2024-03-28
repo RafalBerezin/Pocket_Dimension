@@ -34,6 +34,7 @@
 		}
 	},
 	"rewards": {
-		"function": "pocket_dimension:advancements/make_yourself_at_home/in_case_i_built_a_maze"
+		"function": "pocket_dimension:advancements/make_yourself_at_home/in_case_i_built_a_maze",
+		"experience": 100
 	}
 }

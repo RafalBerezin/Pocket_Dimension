@@ -32,5 +32,8 @@
 		"build_1k_in_pocket_dimension": {
 			"trigger": "minecraft:impossible"
 		}
+	},
+	"rewards": {
+		"experience": 100
 	}
 }

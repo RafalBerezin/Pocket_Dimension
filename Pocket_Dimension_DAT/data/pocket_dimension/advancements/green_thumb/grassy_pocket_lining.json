@@ -52,6 +52,7 @@
         ["place_grass_block_in_pocket_dimension"]
     ],
     "rewards": {
-        "function": "pocket_dimension:advancements/green_thumb/grassy_pocket_lining"
+        "function": "pocket_dimension:advancements/green_thumb/grassy_pocket_lining",
+        "experience": 100
     }
 }
