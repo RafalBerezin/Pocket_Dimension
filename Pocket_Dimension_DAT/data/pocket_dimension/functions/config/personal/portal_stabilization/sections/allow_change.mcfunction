@@ -1,7 +1,6 @@
 #> Called by pocket_dimension:config/personal/portal_stabilization/menu
 
-scoreboard players operation @s pd.config.portal.max_uses < #pd.config.global.portal.max_uses.max PDFlag
-scoreboard players operation @s pd.config.portal.max_uses > #pd.config.global.portal.max_uses.min PDFlag
+function pocket_dimension:config/handler/personal/actions/verify_portal_stabilization
 
 # This menu is formatted differently than the global menu to avoid writing [i don't even want to check how many] combinations of buttons
 

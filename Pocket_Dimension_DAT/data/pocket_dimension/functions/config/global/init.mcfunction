@@ -6,7 +6,7 @@ execute unless score #pd.config.global.portal.max_uses.min.default PDFlag = #pd.
 execute unless score #pd.config.global.portal.max_uses.min PDFlag = #pd.config.global.portal.max_uses.min PDFlag run scoreboard players operation #pd.config.global.portal.max_uses.min PDFlag = #pd.config.global.portal.max_uses.min.default PDFlag
 
 execute unless score #pd.config.global.portal.max_uses.max.default PDFlag = #pd.config.global.portal.max_uses.max.default PDFlag run scoreboard players set #pd.config.global.portal.max_uses.max.default PDFlag 11
-execute unless score #pd.config.global.portal.max_uses.max PDFlag = #pd.config.global.portal.max_uses.max PDFlag run scoreboard players operation #pd.config.global.portal.max_uses.max PDFlag = #pd.config.global.portal.max_uses.min.default PDFlag
+execute unless score #pd.config.global.portal.max_uses.max PDFlag = #pd.config.global.portal.max_uses.max PDFlag run scoreboard players operation #pd.config.global.portal.max_uses.max PDFlag = #pd.config.global.portal.max_uses.max.default PDFlag
 
 execute unless score #pd.config.global.portal.max_uses.default.default PDFlag = #pd.config.global.portal.max_uses.default.default PDFlag run scoreboard players set #pd.config.global.portal.max_uses.default.default PDFlag 11
 execute unless score #pd.config.global.portal.max_uses.default PDFlag = #pd.config.global.portal.max_uses.default PDFlag run scoreboard players operation #pd.config.global.portal.max_uses.default PDFlag = #pd.config.global.portal.max_uses.default.default PDFlag

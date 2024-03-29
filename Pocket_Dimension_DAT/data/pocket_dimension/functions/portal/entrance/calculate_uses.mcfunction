@@ -2,8 +2,7 @@
 
 execute unless score #pd.config.global.portal.max_uses.allow_change PDFlag matches 1 run scoreboard players operation @s pd.config.portal.max_uses = #pd.config.global.portal.max_uses.default PDFlag
 
-scoreboard players operation @s pd.config.portal.max_uses < #pd.config.global.portal.max_uses.max PDFlag
-scoreboard players operation @s pd.config.portal.max_uses > #pd.config.global.portal.max_uses.min PDFlag
+function pocket_dimension:config/handler/personal/actions/verify_portal_stabilization
 
 scoreboard players operation #pd.temp.portal.max_uses PDFlag = @s pd.config.portal.max_uses
 
