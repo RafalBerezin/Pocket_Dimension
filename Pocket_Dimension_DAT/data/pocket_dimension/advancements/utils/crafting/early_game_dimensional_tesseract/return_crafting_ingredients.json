@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "granted_manually": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "granted_manually"
+        ]
+    ],
+    "rewards": {
+        "function": "pocket_dimension:crafting/early_game_dimensional_tesseract/return_crafting_ingredients",
+        "loot": [
+            "pocket_dimension:items/early_game_dimensional_tesseract_ingredients"
+        ]
+    }
+}

@@ -16,4 +16,7 @@ execute if score #pd.config.global.pocket_dimension.force_privacy PDFlag matches
 function pocket_dimension:utils/menu/universal_blocks/config/empty_line
 tellraw @s [{"text": ""}, {"font": "pocket_dimension:icons", "translate": "pd.icon.chat_section.config.continue"}, {"text": " "}, {"font": "pocket_dimension:icons", "translate": "pd.icon.chat_section.info.start", "hoverEvent": {"action": "show_text", "value": [{"text": "The portal will immediately close after a set number of uses."}]}}, {"text": " Portal Stabilization: "}, {"translate": "pd.icon.button.edit", "font": "pocket_dimension:icons", "hoverEvent": {"action": "show_text", "value": [{"text": "Edit portal stabilization config"}]}, "clickEvent": {"action": "run_command", "value": "/function pocket_dimension:config/global/portal_stabilization/menu"}}]
 
+function pocket_dimension:utils/menu/universal_blocks/config/empty_line
+tellraw @s [{"text": ""}, {"font": "pocket_dimension:icons", "translate": "pd.icon.chat_section.config.continue"}, {"text": " Crafting Settings: "}, {"font": "pocket_dimension:icons", "translate": "pd.icon.button.edit", "hoverEvent": {"action": "show_text", "value": [{"text": "Edit crafting config"}]}, "clickEvent": {"action": "run_command", "value": "/function pocket_dimension:config/global/crafting/menu"}}]
+
 function pocket_dimension:utils/menu/universal_blocks/config/line_ending

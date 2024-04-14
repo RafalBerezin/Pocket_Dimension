@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "granted_manually": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "granted_manually"
+        ]
+    ],
+    "rewards": {
+        "function": "pocket_dimension:crafting/early_game_dimensional_tesseract/give_item",
+        "loot": [
+            "pocket_dimension:items/dimensional_tesseract"
+        ]
+    }
+}

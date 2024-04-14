@@ -12,3 +12,5 @@ execute unless score #pd.config.global.portal.max_uses.default.default PDFlag = 
 execute unless score #pd.config.global.portal.max_uses.default PDFlag = #pd.config.global.portal.max_uses.default PDFlag run scoreboard players operation #pd.config.global.portal.max_uses.default PDFlag = #pd.config.global.portal.max_uses.default.default PDFlag
 
 execute unless score #pd.config.global.portal.max_uses.allow_change PDFlag = #pd.config.global.portal.max_uses.allow_change PDFlag run scoreboard players set #pd.config.global.portal.max_uses.allow_change PDFlag 1
+
+execute unless score #pd.config.global.crafting.dimensional_tesseract.early_game.disable PDFlag = #pd.config.global.crafting.dimensional_tesseract.early_game.disable PDFlag run scoreboard players set #pd.config.global.crafting.dimensional_tesseract.early_game.disable PDFlag 0
