@@ -20,9 +20,11 @@ Before you install, make sure to read the [uninstallation section](#uninstallati
 
 ### Accessing Your Pocket Dimension
 
-To access your **Pocket Dimension** you need an ancient artifact known as the **Dimensional Tesseract**. Craft it using the following recipe:
+To access your **Pocket Dimension** you need an ancient artifact known as the **Dimensional Tesseract**. You can craft it using one of the following recipes:
 
-![echo shards in the corners, soul lantern at the top, ender eye on the left, nether star in the middle, end crystal on the right, and lodestone at the bottom](https://raw.githubusercontent.com/RafalBerezin/Pocket_Dimension/master/resources/Recipe.png)
+![Main recipe: echo shards in the corners, soul lantern at the top, ender eye on the left, nether star in the middle, end crystal on the right, and lodestone at the bottom; Secondary recipe: gold ingots in the corners, obsidian at the sides and ender pearls in the center](https://raw.githubusercontent.com/RafalBerezin/Pocket_Dimension/master/resources/Recipe.png)
+
+> The secondary recipe can be disabled in the config
 
 ### Activating the portal
 
@@ -55,13 +57,18 @@ To open the **configuration menu** use the `/trigger PDConfig` command.
 
 - Pocket Dimension Privacy:
 
-    Whether to allow other players to enter your pocket dimension.
+    Whether to allow other players to enter your pocket dimension.
     <br>Default: **PUBLIC**
 
 - Portal Stabilization:
 
-    The portal will close immediately after a set number of uses.
+    The portal will close immediately after a set number of uses.
     <br>Default: **INFINITE**
+
+- Crafting:
+  
+    Allows you to disable the secondary crafting recipe.
+    <br>Default: **ENABLED**
 
 </details>
 
