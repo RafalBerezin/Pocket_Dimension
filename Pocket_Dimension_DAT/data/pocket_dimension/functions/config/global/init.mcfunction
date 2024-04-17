@@ -18,3 +18,7 @@ execute unless score #pd.config.global.portal.max_uses.allow_change PDFlag = #pd
 # Crafting recipes
 execute unless score #pd.config.global.crafting.dimensional_tesseract.early_game.disable PDFlag = #pd.config.global.crafting.dimensional_tesseract.early_game.disable PDFlag run scoreboard players set #pd.config.global.crafting.dimensional_tesseract.early_game.disable PDFlag 0
 
+# Portal owner name display
+execute unless score #pd.config.global.portal.name_display.visible PDFlag = #pd.config.global.portal.name_display.visible PDFlag run scoreboard players set #pd.config.global.portal.name_display.visible PDFlag 1
+execute unless score #pd.config.global.portal.name_display.position PDFlag = #pd.config.global.portal.name_display.position PDFlag run scoreboard players set #pd.config.global.portal.name_display.position PDFlag 0
+execute unless score #pd.config.global.portal.name_display.allow_change PDFlag = #pd.config.global.portal.name_display.allow_change PDFlag run scoreboard players set #pd.config.global.portal.name_display.allow_change PDFlag 1

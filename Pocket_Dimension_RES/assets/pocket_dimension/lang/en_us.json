@@ -8,6 +8,16 @@
     "pd.icon.button.public.disabled":        "\u0103",
 
     
+    "pd.icon.button.show": "\u0011",
+    "pd.icon.button.hide": "\u0012",
+    "pd.icon.button.show.disabled": "\u0111",
+    "pd.icon.button.hide.disabled": "\u0112",
+
+    "pd.icon.button.position.in_front": "\u0021",
+    "pd.icon.button.position.above":    "\u0022",
+    "pd.icon.button.position.in_front.disabled": "\u0121",
+    "pd.icon.button.position.above.disabled":    "\u0122",
+    
     
     "pd.icon.badge.op": "\u1001",
 
