@@ -1,0 +1,7 @@
+#> Called by pocket_dimension:config/personal/portal/stabilization/lines/allow_change/decrease
+
+scoreboard players operation #pd.temp PDFlag = @s pd.config.portal.max_uses
+scoreboard players remove #pd.temp PDFlag 4
+
+execute unless score #pd.temp PDFlag > #pd.config.global.portal.max_uses.min PDFlag run tellraw @s [{"text": ""}, {"font": "pocket_dimension:icons", "translate": "pd.icon.chat_section.config.continue"}, {"text": " "}, {"font": "pocket_dimension:icons", "translate": "pd.icon.button.remove.1", "hoverEvent": {"action": "show_text", "value": [{"text": "Decrease by 1"}]}, "clickEvent": {"action": "run_command", "value": "/trigger PDConfig set 121000003"}}, {"font": "pocket_dimension:icons", "translate": "pd.icon.button.remove.5.disabled"}]
+execute if score #pd.temp PDFlag > #pd.config.global.portal.max_uses.min PDFlag run tellraw @s [{"text": ""}, {"font": "pocket_dimension:icons", "translate": "pd.icon.chat_section.config.continue"}, {"text": " "}, {"font": "pocket_dimension:icons", "translate": "pd.icon.button.remove.1", "hoverEvent": {"action": "show_text", "value": [{"text": "Decrease by 1"}]}, "clickEvent": {"action": "run_command", "value": "/trigger PDConfig set 121000003"}}, {"font": "pocket_dimension:icons", "translate": "pd.icon.button.remove.5", "hoverEvent": {"action": "show_text", "value": [{"text": "Decrease by 5"}]}, "clickEvent": {"action": "run_command", "value": "/trigger PDConfig set 121000004"}}]
