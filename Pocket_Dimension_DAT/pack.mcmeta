@@ -2,7 +2,7 @@
     "pack": {
         "pack_format": 18,
         "supported_formats": [18, 26],
-        "version": "1.2.0",
+        "version": "1.3.0",
         "description": [
             {
                 "text": "Multiplayer Friendly ",
