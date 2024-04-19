@@ -30,6 +30,8 @@ To access your **Pocket Dimension** you need an ancient artifact known as the **
 
 To open the portal, hold the **Dimensional Tesseract** in hand and **right-click**. The portal remains open for **20 seconds**. After this time, you can use the Dimensional Tesseract again.
 
+By default, the portal will display the name of its owner. You can chang it in config.
+
 ### Entering the Dimension
 
 Stand in the portal while **sneaking** for **1 second** and you'll be teleported to your Pocket Dimension. Make sure to watch your step, as initially it only contains a **3x3 bedrock platform** floating over the void and an **exit portal** that leads back to the last point of entry of this specific Pocket Dimension.
@@ -64,6 +66,18 @@ To open the **configuration menu** use the `/trigger PDConfig` command.
 
     The portal will close immediately after a set number of uses.
     <br>Default: **INFINITE**
+
+- Portal Name Display:
+  
+  - Show Name:
+    
+    Display the name of the portal's owner.
+    <br>Default: **SHOW**
+
+  - **[GLOBAL ONLY]** Display Position:
+  
+    Where to display the name.
+    <br>Default: **IN FRONT**
 
 - Crafting:
   
