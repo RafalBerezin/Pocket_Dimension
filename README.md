@@ -30,7 +30,7 @@ To access your **Pocket Dimension** you need an ancient artifact known as the **
 
 To open the portal, hold the **Dimensional Tesseract** in hand and **right-click**. The portal remains open for **20 seconds**. After this time, you can use the Dimensional Tesseract again.
 
-By default, the portal will display the name of its owner. You can chang it in config.
+By default, the portal will display the name of its owner. You can change it in config.
 
 ### Entering the Dimension
 
