@@ -4,4 +4,4 @@ fill ~ ~1 ~ ~ ~1 ~ air replace minecraft:light
 
 execute if data entity @s item.tag.portal.forceloaded run forceload remove ~ ~
 
-kill @s
+function pocket_dimension:utils/kill_recursive
