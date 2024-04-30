@@ -1,7 +1,6 @@
 {
     "pack": {
-        "pack_format": 16,
-        "supported_formats": [16, 22],
+        "pack_format": 32,
         "version": "1.3.0",
         "description": [
             {
