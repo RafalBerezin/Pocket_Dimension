@@ -3,6 +3,16 @@
         "pack_format": 18,
         "supported_formats": [18, 26],
         "version": "1.3.0",
+        "dependencies": [
+            {
+                "name": "Arcane Core",
+                "namespace": "arcane_core",
+                "version": {
+                    "min": "0.1.0"
+                },
+                "download": "https://modrinth.com/datapack/arcane-core"
+            }
+        ],
         "description": [
             {
                 "text": "Multiplayer Friendly ",
