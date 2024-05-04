@@ -1,5 +1,3 @@
-#> Version: 0.1.0
-
 #> [ STORAGE ]
 
 #declare storage arcane_core:modules
@@ -12,11 +10,13 @@
 #declare function arcane_core:api/modules/enable/items
 #declare function arcane_core:api/modules/enable/effects
 #declare function arcane_core:api/modules/enable/cooldowns
+#declare function arcane_core:api/modules/enable/animate
 
 #declare function arcane_core:api/modules/is_enabled/mana
 #declare function arcane_core:api/modules/is_enabled/items
 #declare function arcane_core:api/modules/is_enabled/effects
 #declare function arcane_core:api/modules/is_enabled/cooldowns
+#declare function arcane_core:api/modules/is_enabled/animate
 
 #declare function arcane_core:api/modules/actionbar/change_display
 #declare function arcane_core:api/modules/actionbar/use
@@ -29,6 +29,12 @@
 
 #declare function arcane_core:api/modules/cooldowns/apply
 #declare function arcane_core:api/modules/cooldowns/clear
+
+#declare function arcane_core:api/modules/animate/tick/apply
+#declare function arcane_core:api/modules/animate/tick/stop
+#declare function arcane_core:api/modules/animate/tick/auto_kill
+#declare function arcane_core:api/modules/animate/framed/apply
+#declare function arcane_core:api/modules/animate/framed/stop
 
 #declare function arcane_core:api/modules/items/is_mainhand
 #declare function arcane_core:api/modules/items/is_offhand
@@ -110,6 +116,12 @@
 #> [ OBJECTIVE ]
 
 #declare objective ac.math
+
+#declare objective ac.animate.timer
+#declare objective ac.animate.length
+#declare objective ac.animate.frame
+#declare objective ac.animate.frame.timer
+#declare objective ac.animate.frame.length
 
 #> [ SCORE HOLDER ]
 
