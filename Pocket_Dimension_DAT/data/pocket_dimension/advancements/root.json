@@ -1,8 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:carrot_on_a_stick",
-            "nbt": "{CustomModelData:7640001}"
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {
+                "minecraft:custom_model_data": 7640001
+            }
         },
         "title": {
             "text": "Pocket Dimension",
@@ -21,10 +23,16 @@
             "conditions": {
                 "items": [
                     {
-                        "items": [
-                            "minecraft:carrot_on_a_stick"
-                        ],
-                        "nbt": "{PocketDimension:{DimensionalTesseract:1b}}"
+                        "items": "minecraft:carrot_on_a_stick",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "arcane_core": {
+                                    "pocket_dimension": {
+                                        "dimensional_tesseract": 1
+                                    }
+                                }
+                            }
+                        }
                     }
                 ]
             }

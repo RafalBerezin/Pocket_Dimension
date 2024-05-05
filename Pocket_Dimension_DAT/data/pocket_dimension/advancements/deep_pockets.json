@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stick",
-			"nbt": "{CustomModelData:7640001}"
+			"id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 7640001
+            }
 		},
 		"title": {
 			"text": "Deep Pockets",

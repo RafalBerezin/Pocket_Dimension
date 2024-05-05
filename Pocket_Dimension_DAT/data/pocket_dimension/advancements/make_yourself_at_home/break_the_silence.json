@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:music_disc_otherside"
+            "id": "minecraft:music_disc_otherside"
         },
         "title": {
             "text": "Break the Silence",
