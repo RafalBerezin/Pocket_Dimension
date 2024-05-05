@@ -1,6 +1,8 @@
-#> Called by #minecraft:load
+#> Called by #arcane_core:hooks/general/load
 
 execute if score #pd.disabled PDFlag matches 1 run return 1
+
+function arcane_core:api/modules/enable/items
 
 # The PDSneak scoreboard is used most of the time as the predicate doesn't work during flight
 # However it's reset at the end of player logic and cannot be used later (e.g effects). Use the respective predicate for that purpose

@@ -12,19 +12,15 @@
                             "count": 1
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{PickupDelay:20,Unbreakable:1b,HideFlags:4,CustomModelData:7640001,PocketDimension:{DimensionalTesseract:1b}}"
-                        },
-                        {
                             "function": "minecraft:set_name",
+                            "target": "item_name",
                             "name": {
                                 "text": "Dimensional Tesseract",
-                                "color": "#5991ec",
-                                "italic": false
+                                "color": "#5991ec"
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "text": " "
@@ -37,21 +33,44 @@
                                     },
                                     {
                                         "text": "artifact",
-                                        "color": "#acff94"
+                                        "color": "#acff94",
+                                        "italic": false
                                     },
                                     {
                                         "text": " used to create and enter ",
-                                        "color": "#b0b0b0"
+                                        "color": "#b0b0b0",
+                                        "italic": false
                                     },
                                     {
                                         "text": "Pocket Dimension",
-                                        "color": "#5991ec"
+                                        "color": "#5991ec",
+                                        "italic": false
                                     }
                                 ],
                                 {
                                     "text": " "
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_custom_model_data",
+                            "value": 7640001
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "arcane_core": {
+                                        "pocket_dimension": {
+                                            "dimensional_tesseract": 1
+                                        }
+                                    }
+                                },
+                                "minecraft:unbreakable": {
+                                    "show_in_tooltip": false
+                                }
+                            }
                         }
                     ]
                 }
