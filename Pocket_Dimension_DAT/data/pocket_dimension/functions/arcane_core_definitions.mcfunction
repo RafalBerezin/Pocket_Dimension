@@ -42,6 +42,9 @@
 #declare function arcane_core:api/modules/items/is_secondary
 #declare function arcane_core:api/modules/items/is_offhand_primary
 
+#declare function arcane_core:api/entity/kill
+#declare function arcane_core:api/entity/kill_recursive
+
 #declare function arcane_core:api/time/get_day_time_hours_and_minutes
 #declare function arcane_core:api/time/get_day_time_ticks
 
