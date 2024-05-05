@@ -2,4 +2,5 @@
 
 scoreboard players reset @s PDDimTesseractCD
 tag @s remove pd.cooldowns.dimensional_tesseract
-tag @s remove pd.cooldowns
+
+function pocket_dimension:cooldowns/clear
