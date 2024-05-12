@@ -51,6 +51,8 @@
 #declare function arcane_core:api/math/ticks_to_seconds
 #declare function arcane_core:api/math/seconds_to_ticks
 
+#declare function arcane_core:api/version_check
+
 #> [ FUNCTION ] [ COMMANDS ]
 
 #declare function arcane_core:commands/modules/actionbar/use_display/clock

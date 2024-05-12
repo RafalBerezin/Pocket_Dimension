@@ -2,6 +2,8 @@
 
 execute if score #pd.disabled PDFlag matches 1 run return 1
 
+function arcane_core:api/version_check {project_name:"Pocket Dimension", major:0, minor:1, patch:5}
+
 function arcane_core:api/modules/enable/items
 function arcane_core:api/modules/enable/cooldowns
 function arcane_core:api/modules/enable/animate
