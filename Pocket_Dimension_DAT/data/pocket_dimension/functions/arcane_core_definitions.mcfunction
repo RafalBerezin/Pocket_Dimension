@@ -41,6 +41,8 @@
 #declare function arcane_core:api/modules/items/is_primary
 #declare function arcane_core:api/modules/items/is_secondary
 #declare function arcane_core:api/modules/items/is_offhand_primary
+#declare function arcane_core:api/modules/items/used/carrot_on_a_stick
+#declare function arcane_core:api/modules/items/used/warped_fungus_on_a_stick
 
 #declare function arcane_core:api/entity/kill
 #declare function arcane_core:api/entity/kill_recursive
