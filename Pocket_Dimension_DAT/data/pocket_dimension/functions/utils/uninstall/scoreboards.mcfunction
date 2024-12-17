@@ -14,4 +14,7 @@ scoreboard objectives remove PDDimTesseractCD
 scoreboard objectives remove PDPortalOpenT
 scoreboard objectives remove PDTeleportT
 
+scoreboard objectives remove pd.portal.destination.dim
+scoreboard objectives remove pd.portal.this.dim
+
 function pocket_dimension:advancements/scoreboards/uninstall

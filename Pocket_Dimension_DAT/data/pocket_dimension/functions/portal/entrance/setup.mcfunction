@@ -1,10 +1,10 @@
 #> Called by pocket_dimension:portal/entrance/create
 
-data modify entity @s item.tag.portal set from storage pocket_dimension:main root.portal
+scoreboard players set @s pd.portal.destination.dim 4
+scoreboard players operation @s pd.portal.this.dim = #pd.temp.dim pd.portal.this.dim
 
-data modify entity @s item.tag.portal.this.x set from entity @s Pos[0]
-data modify entity @s item.tag.portal.this.y set from entity @s Pos[1]
-data modify entity @s item.tag.portal.this.z set from entity @s Pos[2]
+data modify entity @s item.tag.portal set from storage pocket_dimension:main root.portal
+data modify entity @s item.tag.portal.this.pos set from entity @s Pos
 
 execute if score #pd.pocket_dimension.is_private PDFlag matches 1 run tag @s add pd.portal.private
 

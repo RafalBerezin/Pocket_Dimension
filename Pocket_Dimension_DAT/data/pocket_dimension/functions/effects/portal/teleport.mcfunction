@@ -1,4 +1,4 @@
-#> Called by pocket_dimension:effects/portal/entrance/macro_positioning
+#> Called by pocket_dimension:effects/teleport/helper_entity
 
 execute if score #pd.temp.portal.entrance PDFlag matches 1 run function pocket_dimension:effects/portal/entrance/teleport
 

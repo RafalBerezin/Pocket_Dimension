@@ -1,4 +1,4 @@
-#> Called by pocket_dimension:effects/portal/entrance/macro_positioning
+#> Called by pocket_dimension:effects/portal/teleport
 
 execute if score #pd.temp.portal.uses_left PDFlag matches 1.. run scoreboard players remove #pd.temp.portal.uses_left PDFlag 1
 

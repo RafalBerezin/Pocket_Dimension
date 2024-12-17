@@ -9,7 +9,9 @@ execute if entity @s[tag=pd.effects.portal.exit] run function pocket_dimension:e
 
 execute positioned ~ ~1.5 ~ run function pocket_dimension:effects/portal/animations/tick
 
-data modify storage pocket_dimension:main root.macro.portal set from entity @s item.tag.portal.destination
+data modify storage pocket_dimension:main root.temp.portal set from entity @s item.tag.portal.destination
+scoreboard players operation #pd.temp.dim pd.portal.destination.dim = @s pd.portal.destination.dim
+scoreboard players operation #pd.temp.dim pd.portal.this.dim = @s pd.portal.this.dim
 
 data modify storage pocket_dimension:main root.portal.owner set from entity @s item.tag.portal.owner
 execute store success score #pd.pocket_dimension.is_private PDFlag if entity @s[tag=pd.portal.private]

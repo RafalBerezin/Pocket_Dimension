@@ -1,20 +1,18 @@
 #> Called by pocket_dimension:items/dimensional_tesseract/use
 
 #region store portal data
-data modify storage pocket_dimension:main root.portal.destination.dim set value "pocket_dimension:pocket_dimension"
-data modify storage pocket_dimension:main root.portal.destination.y set value 0
+scoreboard players set #pd.temp.dim pd.portal.this.dim 0
+execute if dimension minecraft:overworld run scoreboard players set #pd.temp.dim pd.portal.this.dim 1
+execute if dimension minecraft:the_nether run scoreboard players set #pd.temp.dim pd.portal.this.dim 2
+execute if dimension minecraft:the_end run scoreboard players set #pd.temp.dim pd.portal.this.dim 3
+
+data modify storage pocket_dimension:main root.portal.destination.pos set value [0d, 0d, 0d]
 
 # there's really only one pocket dimension
 # just every player gets teleported to a different location
 # which is based on their UUID
-execute store result storage pocket_dimension:main root.portal.destination.x int 0.01 run data get entity @s UUID[0]
-execute store result storage pocket_dimension:main root.portal.destination.z int 0.01 run data get entity @s UUID[1]
-
-# only players store the dimension they're currently in
-# so we save it on the portal for use during exit portal creation
-# the position is stored in pocket_dimension:portal/entrance/setup
-# (could be more than just players, but the important thing is that the entity used for portals doesn't)
-data modify storage pocket_dimension:main root.portal.this.dim set from entity @s Dimension
+execute store result storage pocket_dimension:main root.portal.destination.pos[0] double 0.01 run data get entity @s UUID[0]
+execute store result storage pocket_dimension:main root.portal.destination.pos[2] double 0.01 run data get entity @s UUID[1]
 
 data modify storage pocket_dimension:main root.portal.owner set from entity @s UUID
 
