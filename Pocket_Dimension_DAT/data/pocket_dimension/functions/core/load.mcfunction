@@ -23,6 +23,8 @@ scoreboard objectives add PDDimTesseractCD dummy
 scoreboard objectives add PDPortalOpenT dummy
 scoreboard objectives add PDTeleportT dummy
 
+scoreboard objectives add pd.events.join minecraft.custom:minecraft.leave_game
+
 function pocket_dimension:utils/scoreboard/init_const
 function pocket_dimension:config/global/init
 function pocket_dimension:advancements/scoreboards/install

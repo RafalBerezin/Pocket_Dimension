@@ -14,4 +14,6 @@ scoreboard objectives remove PDDimTesseractCD
 scoreboard objectives remove PDPortalOpenT
 scoreboard objectives remove PDTeleportT
 
+scoreboard objectives remove pd.events.join
+
 function pocket_dimension:advancements/scoreboards/uninstall

@@ -3,6 +3,8 @@
 
 function #pocket_dimension:advancements
 
+execute unless score @s pd.events.join matches 1 run function pocket_dimension:events/join
+
 function pocket_dimension:utils/player/inventory/cache_held_interactable
 
 execute if data storage pocket_dimension:main player.held.PocketDimension run function pocket_dimension:items/main
