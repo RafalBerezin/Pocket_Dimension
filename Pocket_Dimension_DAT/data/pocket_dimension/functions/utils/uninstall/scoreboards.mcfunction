@@ -17,4 +17,6 @@ scoreboard objectives remove PDTeleportT
 scoreboard objectives remove pd.portal.destination.dim
 scoreboard objectives remove pd.portal.this.dim
 
+scoreboard objectives remove pd.event.join
+
 function pocket_dimension:advancements/scoreboards/uninstall
