@@ -1,7 +1,6 @@
 #> Called by pocket_dimension:config/personal/portal/stabilization/sections/allow_change
 
-# TODO update this VVV
-function pocket_dimension:config/handler/personal/actions/verify_portal_stabilization
+function pocket_dimension:config/handler/personal/portal/stabilization/actions/verify
 
 function pocket_dimension:config/personal/portal/stabilization/lines/allow_change/min_max
 function pocket_dimension:config/personal/portal/stabilization/lines/allow_change/value
