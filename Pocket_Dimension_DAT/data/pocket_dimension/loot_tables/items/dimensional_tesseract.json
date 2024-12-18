@@ -1,61 +1,78 @@
 {
-    "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:carrot_on_a_stick",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{PickupDelay:20,Unbreakable:1b,HideFlags:4,CustomModelData:7640001,PocketDimension:{DimensionalTesseract:1b}}"
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "text": "Dimensional Tesseract",
-                                "color": "#5991ec",
-                                "italic": false
-                            }
-                        },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "text": " "
-                                },
-                                [
-                                    {
-                                        "text": "A powerful ",
-                                        "color": "#b0b0b0",
-                                        "italic": false
-                                    },
-                                    {
-                                        "text": "artifact",
-                                        "color": "#acff94"
-                                    },
-                                    {
-                                        "text": " used to create and enter ",
-                                        "color": "#b0b0b0"
-                                    },
-                                    {
-                                        "text": "Pocket Dimension",
-                                        "color": "#5991ec"
-                                    }
-                                ],
-                                {
-                                    "text": " "
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Dimensional Tesseract",
+								"color": "#5991ec"
+							},
+							"target": "item_name"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": " "
+								},
+								[
+									{
+										"text": "A powerful ",
+										"color": "#b0b0b0",
+										"italic": false
+									},
+									{
+										"text": "artifact",
+										"color": "#acff94",
+										"italic": false
+									},
+									{
+										"text": " used to create and enter ",
+										"color": "#b0b0b0",
+										"italic": false
+									},
+									{
+										"text": "Pocket Dimension",
+										"color": "#5991ec",
+										"italic": false
+									}
+								],
+								{
+									"text": " "
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_custom_model_data",
+							"value": 7640001
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"PocketDimension": {
+										"DimensionalTesseract": true
+									}
+								},
+								"minecraft:unbreakable": {
+									"show_in_tooltip": false
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
 }
