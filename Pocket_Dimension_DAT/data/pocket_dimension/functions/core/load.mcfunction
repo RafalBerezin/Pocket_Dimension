@@ -32,9 +32,7 @@ function pocket_dimension:advancements/scoreboards/install
 
 #define storage pocket_dimension:main
 
-
-
-tellraw @a [{"text": ""}, {"font": "pocket_dimension:icons", "text": "\n\u3201"}, {"text":" Pocket Dimension", "color": "#5991ec"}, {"text": " has been installed."}, {"font": "pocket_dimension:icons", "text": "\n\u3203"}]
+tellraw @a [{"text": ""}, {"font": "pocket_dimension:icons", "text": "\n\u3201"}, {"text":" Pocket Dimension", "color": "#5991ec"}, {"text": " has been installed."}, {"font": "pocket_dimension:icons", "text": "\n\u3203"}, {"font": "pocket_dimension:icons", "text": "\n\u3001"}, {"text": " Due to technical reasons, version for "}, {"text": "Minecraft 1.20.1", "color": "#ffd12f"}, {"font": "pocket_dimension:icons", "text": "\n\u3002"}, {"text": " only works with "}, {"text": "vanilla", "color": "#ffd12f"}, {"text": " dimensions."}, {"font": "pocket_dimension:icons", "text": "\n\u3003"}]
 
 scoreboard players set #pd.dimension_loaded PDFlag 0
 execute in pocket_dimension:pocket_dimension run scoreboard players set #pd.dimension_loaded PDFlag 1
