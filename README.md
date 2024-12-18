@@ -14,6 +14,18 @@
 
 Before you install, make sure to read the [uninstallation section](#uninstallation), as it isn't exactly straightforward.
 
+This is a backport of the project to Minecraft 1.20.1.
+While not planned, it was developed in response to numerous requests.
+
+Please note that:
+
+- New features will not be actively developed for this version.
+- Only critical bugs will be addressed.
+- Due to technical constraints, this version only supports **vanilla Minecraft dimensions**.
+
+If you require compatibility with other custom dimensions, please use a main project version.
+
+
 ## Overview
 
 ### This data pack adds a multiplayer-friendly Pocket Dimension
@@ -68,19 +80,19 @@ To open the **configuration menu** use the `/trigger PDConfig` command.
     <br>Default: **INFINITE**
 
 - Portal Name Display:
-  
+
   - Show Name:
-    
+
     Display the name of the portal's owner.
     <br>Default: **SHOW**
 
   - **[GLOBAL ONLY]** Display Position:
-  
+
     Where to display the name.
     <br>Default: **IN FRONT**
 
 - Crafting:
-  
+
     Allows you to disable the secondary crafting recipe.
     <br>Default: **ENABLED**
 
