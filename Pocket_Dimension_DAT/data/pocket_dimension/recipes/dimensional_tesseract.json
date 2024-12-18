@@ -1,32 +1,28 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "group": "pocket_dimension:dimensional_tesseract",
-    "pattern": [
-        "ASA",
-        "ENC",
-        "ALA"
-    ],
-    "key": {
-        "A": {
-            "item": "minecraft:echo_shard"
-        },
-        "S": {
-            "item": "minecraft:soul_lantern"
-        },
-        "E": {
-            "item": "minecraft:ender_eye"
-        },
-        "N": {
-            "item": "minecraft:nether_star"
-        },
-        "C": {
-            "item": "minecraft:end_crystal"
-        },
-        "L": {
-            "item": "minecraft:lodestone"
-        }
-    },
-    "result": {
-        "item": "minecraft:knowledge_book"
-    }
+	"type": "minecraft:crafting_shaped",
+	"group": "pocket_dimension:dimensional_tesseract",
+	"pattern": ["ASA", "ENC", "ALA"],
+	"key": {
+		"A": {
+			"item": "minecraft:echo_shard"
+		},
+		"S": {
+			"item": "minecraft:soul_lantern"
+		},
+		"E": {
+			"item": "minecraft:ender_eye"
+		},
+		"N": {
+			"item": "minecraft:nether_star"
+		},
+		"C": {
+			"item": "minecraft:end_crystal"
+		},
+		"L": {
+			"item": "minecraft:lodestone"
+		}
+	},
+	"result": {
+		"id": "minecraft:knowledge_book"
+	}
 }

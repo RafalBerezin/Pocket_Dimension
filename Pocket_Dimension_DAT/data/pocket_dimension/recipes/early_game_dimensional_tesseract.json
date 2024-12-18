@@ -1,23 +1,19 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "group": "pocket_dimension:dimensional_tesseract",
-    "pattern": [
-        "GOG",
-        "OEO",
-        "GOG"
-    ],
-    "key": {
-        "G": {
-            "item": "minecraft:gold_ingot"
-        },
-        "O": {
-            "item": "minecraft:obsidian"
-        },
-        "E": {
-            "item": "minecraft:ender_pearl"
-        }
-    },
-    "result": {
-        "item": "minecraft:knowledge_book"
-    }
+	"type": "minecraft:crafting_shaped",
+	"group": "pocket_dimension:dimensional_tesseract",
+	"pattern": ["GOG", "OEO", "GOG"],
+	"key": {
+		"G": {
+			"item": "minecraft:gold_ingot"
+		},
+		"O": {
+			"item": "minecraft:obsidian"
+		},
+		"E": {
+			"item": "minecraft:ender_pearl"
+		}
+	},
+	"result": {
+		"id": "minecraft:knowledge_book"
+	}
 }
