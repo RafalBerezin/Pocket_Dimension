@@ -1,14 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:ender_eye"
+			"id": "minecraft:ender_eye"
 		},
 		"title": {
 			"text": "It Looked Back",
 			"color": "white"
 		},
 		"description": [
-			{	
+			{
 				"text": "Peer into the void of ",
 				"color": "white"
 			},
@@ -34,9 +34,7 @@
 		}
 	},
 	"rewards": {
-		"loot": [
-			"pocket_dimension:advancement_rewards/it_looked_back"
-		],
+		"loot": ["pocket_dimension:advancement_rewards/it_looked_back"],
 		"experience": 100
 	}
 }

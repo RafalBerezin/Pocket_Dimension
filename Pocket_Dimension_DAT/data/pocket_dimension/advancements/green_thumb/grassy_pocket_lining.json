@@ -1,58 +1,54 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:grass_block"
-        },
-        "title": {
-            "text": "Grassy Pocket Lining",
-            "color": "white"
-        },
-        "description": [
-            {
-                "text": "Place a ",
-                "color": "white"
-            },
-            {
-                "text": "Grass Block",
-                "color": "#acff94"
-            },
-            {
-                "text": " inside a ",
-                "color": "white"
-            },
-            {
+	"display": {
+		"icon": {
+			"id": "minecraft:grass_block"
+		},
+		"title": {
+			"text": "Grassy Pocket Lining",
+			"color": "white"
+		},
+		"description": [
+			{
+				"text": "Place a ",
+				"color": "white"
+			},
+			{
+				"text": "Grass Block",
+				"color": "#acff94"
+			},
+			{
+				"text": " inside a ",
+				"color": "white"
+			},
+			{
 				"text": "Pocket Dimension",
 				"color": "#5991ec"
 			}
-        ],
-        "frame": "goal"
-    },
-    "parent": "pocket_dimension:green_thumb/root",
-    "criteria": {
-        "place_grass_block_in_pocket_dimension": {
-            "trigger": "minecraft:placed_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "dimension": "pocket_dimension:pocket_dimension",
-                            "block": {
-                                "blocks": [
-                                    "minecraft:grass_block"
-                                ]
-                            }
-                        }
-                    }
-                ]
-            }
-        }
-    },
-    "requirements": [
-        ["place_grass_block_in_pocket_dimension"]
-    ],
-    "rewards": {
-        "function": "pocket_dimension:advancements/green_thumb/grassy_pocket_lining",
-        "experience": 100
-    }
+		],
+		"frame": "goal"
+	},
+	"parent": "pocket_dimension:green_thumb/root",
+	"criteria": {
+		"place_grass_block_in_pocket_dimension": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "pocket_dimension:pocket_dimension",
+							"block": {
+								"blocks": ["minecraft:grass_block"]
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [["place_grass_block_in_pocket_dimension"]],
+	"rewards": {
+		"function": "pocket_dimension:advancements/green_thumb/grassy_pocket_lining",
+		"experience": 100
+	}
 }

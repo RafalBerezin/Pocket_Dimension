@@ -1,22 +1,22 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:filled_map"
+			"id": "minecraft:filled_map"
 		},
 		"title": {
 			"text": "In Case I Built a Maze",
 			"color": "white"
 		},
 		"description": [
-			{	
+			{
 				"text": "Create a ",
 				"color": "white"
 			},
-			{	
+			{
 				"text": "map",
 				"color": "#ffd12f"
 			},
-			{	
+			{
 				"text": " of ",
 				"color": "white"
 			},

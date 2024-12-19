@@ -1,22 +1,22 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:clock"
+			"id": "minecraft:clock"
 		},
 		"title": {
 			"text": "I Like It Here",
 			"color": "white"
 		},
 		"description": [
-			{	
+			{
 				"text": "Spend ",
 				"color": "white"
 			},
-			{	
+			{
 				"text": "1 hour",
 				"color": "#ffd12f"
 			},
-			{	
+			{
 				"text": " inside ",
 				"color": "white"
 			},

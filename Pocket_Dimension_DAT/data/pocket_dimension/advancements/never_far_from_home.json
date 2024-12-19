@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stick",
-			"nbt": "{CustomModelData:7640001}"
+			"id": "minecraft:stick",
+			"components": {
+				"minecraft:custom_model_data": 7640001
+			}
 		},
 		"title": {
 			"text": "Never Far From Home",
@@ -68,15 +70,9 @@
 		}
 	},
 	"requirements": [
-		[
-			"enter_from_overworld"
-		],
-		[
-			"enter_from_the_nether"
-		],
-		[
-			"enter_from_the_end"
-		]
+		["enter_from_overworld"],
+		["enter_from_the_nether"],
+		["enter_from_the_end"]
 	],
 	"rewards": {
 		"experience": 300
