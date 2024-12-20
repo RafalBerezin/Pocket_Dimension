@@ -37,7 +37,14 @@
 										"italic": false
 									},
 									{
-										"text": " used to create and enter ",
+										"text": " used to",
+										"color": "#b0b0b0",
+										"italic": false
+									}
+								],
+								[
+									{
+										"text": "create and enter ",
 										"color": "#b0b0b0",
 										"italic": false
 									},

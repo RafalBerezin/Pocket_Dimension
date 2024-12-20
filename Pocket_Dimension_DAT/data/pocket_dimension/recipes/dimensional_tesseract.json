@@ -23,6 +23,25 @@
 		}
 	},
 	"result": {
-		"id": "minecraft:knowledge_book"
+		"id": "minecraft:carrot_on_a_stick",
+		"count": 1,
+		"components": {
+			"minecraft:custom_model_data": 7640001,
+			"minecraft:custom_name": "{\"text\": \"Dimensional Tesseract\", \"color\": \"#5991ec\", \"italic\": false}",
+			"minecraft:lore": [
+				"{\"text\": \" \"}",
+				"[{\"text\": \"A powerful \", \"color\": \"#b0b0b0\", \"italic\": false}, {\"text\": \"artifact\", \"color\": \"#acff94\", \"italic\": false}, {\"text\": \" used to\", \"color\": \"#b0b0b0\", \"italic\": false}]",
+				"[{\"text\": \"create and enter \", \"color\": \"#b0b0b0\", \"italic\": false}, {\"text\": \"Pocket Dimension\", \"color\": \"#5991ec\", \"italic\": false}]",
+				"{\"text\": \" \"}"
+			],
+			"minecraft:custom_data": {
+				"PocketDimension": {
+					"DimensionalTesseract": 1
+				}
+			},
+			"minecraft:unbreakable": {
+				"show_in_tooltip": false
+			}
+		}
 	}
 }
